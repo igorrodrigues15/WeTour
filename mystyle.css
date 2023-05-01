@@ -1,0 +1,287 @@
+* {font-family: 'Montserrat', sans-serif;
+    ;
+;}
+
+.bg-background {background-color: #003149;}
+
+.firstTitle {color: #797b3d;}
+
+/* NAVBAR STYLE */ 
+.navbar {height: 4em;}
+.nav-link{color: rgb(221, 221, 221);}
+.navbaricon {width: 170px; height: 170px;
+            display: auto;}
+.secondbar {height: 12em;
+          background-color: rgb(255, 255, 255);}
+
+.second {font-size: 1.2em;
+        color:  rgb(0, 0, 0);}
+
+/* hover effect for links */ 
+.whitetext {color: white;}
+.w3rcontainer{
+  border: 1px solid 
+#cccfdb;
+  border-radius: 2px;
+} 
+.hover-underline-animation {
+ display: inline-block;
+ position: relative;
+ color: 
+#000000;
+}
+
+.hover-underline-animation:after {
+ content: '';
+ position: absolute;
+ width: 100%;
+ transform: scaleX(0);
+ height: 2px;
+ bottom: 0;
+ left: 0;
+ background-color: 
+ #757904;
+ transform-origin: bottom right;
+ transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+ transform: scaleX(1);
+ transform-origin: bottom left;
+}
+
+
+
+
+
+
+
+.social-media-color i {color: #526e7c;}
+
+.navbar .nav-item {padding: 5em;}
+
+.btn-success  {background-color: rgb(55, 136, 176);
+              border-color: rgb(55, 136, 176);
+              color: rgb(221, 221, 221);
+              
+              }
+              
+.btn-success:hover {background-color: rgb(114, 168, 201);
+  color: rgb(221, 221, 221);
+  border-color: rgb(93, 120, 125);
+             border-radius: 1.5em;
+             transition: 1s;
+                    }
+
+.lightblue {color: rgb(93, 120, 125);}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.hover:hover {background-color: rgb(227, 226, 226);}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:#003149;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+a i {margin-right: 0.5em;}
+
+.how-it-work {
+  padding: 116px 0px 130px; }
+  .how-it-work .section-heading {
+    margin-bottom: 56px; }
+
+.single-how-it-work {
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 27px 30px 26px;
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; }
+  .single-how-it-work .icon {
+    font-size: 50px;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    background: rgba(94, 0, 217, 0.06);
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 19px;
+    font-weight: normal;
+    color: #003149;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
+  .single-how-it-work .icon-img {
+    margin-bottom: 25px; }
+  .single-how-it-work .title {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+    margin-bottom: 15px; }
+  .single-how-it-work p {
+    margin-bottom: 0px; }
+  .single-how-it-work:hover {
+    -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px); }
+    .single-how-it-work:hover .icon {
+      background: #043f79;
+      color: #fff; }
+
+/* -- MODAL BOX --*/ 
+
+ /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.alert {
+  padding: 1px;
+  border-radius: 4px;
+  color: #ff0000;
+ text-align: center;}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.background-blue {background-color: #003149;
+                  height: 500px;
+                  margin-top: 50px;}
+
+                  .animate-left {
+                    animation-name: slide-in-left;
+                    animation-duration: 1.5s;
+                  }
+                  
+                  .animate-right {
+                    animation-name: slide-in-right;
+                    animation-duration: 1.5s;
+                  }
+                  
+                  @keyframes slide-in-left {
+                    from {
+                      transform: translateX(-100%);
+                    }
+                    to {
+                      transform: translateX(0);
+                    }
+                  }
+                  
+                  @keyframes slide-in-right {
+                    from {
+                      transform: translateX(100%);
+                    }
+                    to {
+                      transform: translateX(0);
+                    }
+                  }
+                  
+
+                  
